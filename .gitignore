@@ -1,3 +1,10 @@
+.gradle/
+build/
+out/
+*.class
+.idea/
+*.iml
+.DS_Store
 .env
 .env.*
 !.env.example
@@ -10,6 +17,7 @@ id_ed25519*
 *.secret
 secrets.*
 credentials*.json
+
 .npmrc
 .pypirc
 node_modules/
